@@ -13,5 +13,6 @@
 export default {};
 </script>
 
-<style>
+<style lang="scss">
+@import '@/assets/css/public/header/index.scss';
 </style>

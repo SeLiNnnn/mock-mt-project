@@ -5,6 +5,8 @@ import User from '../dbs/models/users'
 import Passport from './utils/passport'
 import Email from '../dbs/config'
 import axios from './utils/axios'
+import { promises } from 'fs';
+import { Promise } from 'mongoose';
 
 let router = new Router({
   prefix: '/users'
